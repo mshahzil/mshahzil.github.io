@@ -1,0 +1,139 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #190061;
+	font-family: 'Oxygen', sans-serif;
+}
+
+
+
+/**************** HEADER ****************/
+#header-nav {
+	background-color: #5D5C61;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #190061;
+	font-size: 1.8em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+  margin: auto;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {	
+	text-decoration: none;
+}
+
+#nav-list a {
+	color: #190061;
+  font-weight: bold;
+	text-align: center;
+}
+
+#nav-list li {
+  margin: 5px;
+}
+
+#nav-list a:hover {
+	background-color: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #190061;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+/***************** END HEADER *****************/
+
+
+
+/**************** MAIN CONTENT ****************/
+#main-content h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#all-sections div {
+  width: 100%;   /* full width of the container (section element) */
+  overflow: auto;
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 3px solid #5D5C61;
+  background-color: #C5CBE3;
+  color: black;
+}
+
+#all-sections h3 {
+  font-weight: bold;
+  margin-top: -5px;
+}
+/**************** END MAIN CONTENT ****************/
+
+
+
+/**************** LARGE DEVICES ONLY ****************/
+@media (min-width: 1200px) {
+  
+  #header-nav {
+    height: 70px;
+  }
+
+}
+
+
+
+/**************** MEDIUM DEVICES ONLY ****************/
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	#header-nav {
+    height: 70px;
+  }
+
+}
+
+
+
+/**************** SMALL DEVICES ONLY ****************/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  #header-nav {
+    height: 70px;
+  }
+
+}
+
+
+
+/**************** EXTRA SMALL DEVICES ONLY ****************/
+@media (max-width: 767px) {
+	
+  .navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	.navbar-brand h1 {  
+		padding-top: 10px;
+		font-size: 5vw;  /* 1vw = 1% of viewport width */
+	}
+
+	#collapsable-nav a {
+		font-size: 1.3em;
+	}
+
+	#collapsable-nav {
+		background-color: #808080;
+	}
+
+  #menu-tile, #specials-tile {
+  	width: 360px;
+  	margin: 0 auto 15px auto;
+  }
+
+}
